@@ -26,8 +26,8 @@ class _MyAppState extends State<MyApp> {
   ReceivePort port = ReceivePort();
 
   String logStr = '';
-  bool isRunning;
-  LocationDto lastLocation;
+  bool isRunning=false;
+  LocationDto? lastLocation;
 
   @override
   void initState() {
